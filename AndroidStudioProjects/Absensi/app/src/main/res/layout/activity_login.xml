@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="42dp"
+    android:background="@color/colorFree"
+
+
+    tools:context=".activity.login.LoginActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ABSENSI"
+        android:textStyle="bold"
+        android:textSize="28sp"
+        android:gravity="center"
+        android:layout_marginBottom="25dp"
+
+        />
+
+    <EditText
+        android:id="@+id/etLoginUsername"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_light"
+        android:layout_gravity="center"
+        android:hint="username/email"
+        android:layout_marginBottom="15dp"
+
+        />
+
+    <EditText
+        android:id="@+id/etLoginPassword"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_light"
+        android:layout_gravity="center"
+        android:hint="password"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginBottom="25dp"
+
+
+        />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="Login"
+        android:layout_marginBottom="10dp"
+
+        />
+
+
+
+    <Button
+        android:id="@+id/btn_registrasi"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="Registrasi"
+
+
+        />
+
+
+</LinearLayout>
